@@ -4,3 +4,5 @@ Discover a random beer of Brewdog's. This small website is used as a demonstatio
 Feel free to clone the repo and expand on the functionalities 🍻
 
 If you find anything broken, please open an issue and I will asssess whether it is a core need that needs to be fixed. Also, feel free to open PR's; I'm more than happy to take a look at extra functionalities to expand this repo, however keep in mind I am keeping to the 3 files rule.
+
+Find the actual beer's at [Brewdog.com](https://www.brewdog.com/uk/)
