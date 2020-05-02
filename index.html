@@ -14,14 +14,22 @@
     <div class="header">
       <img id="logo" src="assets/shield-shadow.png"/>
     </div>
-
     <div class="container">
       <div class="left">
         <img id="beerImage" src=""/>
+        <h2 id="beerTagline"></h2>
       </div>
       <div class="right">
         <h1 id="beerName" class="bold"></h1>
-        <p id="beerDescription"></p>
+        <table>
+          <tr><td colspan="2"><p id="beerDescription"></p></td></tr>
+          <tr>
+            <td><h5>ABV</h5><p id="beerAbv"></p></td>
+            <td><h5>IBU</h5><p id="beerIbu"></p></td>
+          </tr>
+          <tr><td colspan="2"><h5>Hops</h5><p id="beerHops"></p></td></tr>
+          <tr><td colspan="2"><h5>Food Pairings</h5><p id="beerPairing"></p></td></tr>
+        </table>
         <div class="button-group">
           <button type="button" id="generate" class="bold">Drink Up</button>
         </div>  

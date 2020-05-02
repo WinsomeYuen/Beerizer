@@ -2,6 +2,7 @@ body{
   background-color: #00afdb;
   font-family: 'Darker Grotesque', sans-serif;
   font-weight: 400;
+  font-size: 20px;
 }
 
 .bold{
@@ -9,10 +10,37 @@ body{
   text-transform: uppercase;
 }
 
-#logo{
+img{
   display:block;
-  margin-left:auto;
-  margin-right:auto;
+  margin:auto;
+  width: 30%;
+  height: auto;
+}
+
+table, td{
+  border: 4px solid #000;
+  background-color: #FFF;
+  padding: 0 20px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+h5{
+  color: #00afdb;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+h2{
+  font-style: italic;
+  text-align: center;
+  color: #FFF;
+}
+
+p{
+  margin-top: 5px;
 }
 
 .container { 
@@ -20,16 +48,16 @@ body{
   flex-flow: column-reverse; 
 }
 
-img{
-  padding: 20px;
-  display:block;
-  margin:auto;
-  width: 20%;
-  height: auto;
-}
-
 .right{
   padding: 20px;
+}
+
+#beerDescription{
+  padding-top: 10px;
+}
+
+.button-group{
+  padding-top: 10px;
 }
 
 button{
@@ -39,7 +67,7 @@ button{
   background: none;
   border: none;
   cursor: pointer;
-  border: 2px solid #000;
+  border: 3px solid #000;
   background-color: #FFF;
   padding: 1rem 1.5rem;
   font-size: 1.25rem;
@@ -51,7 +79,7 @@ button{
 
 button:hover{
   outline: 0;
-  transform: translate(4px, 4px);
+  transform: translate(5px, 4px);
   box-shadow: 0 0 0 0 #000;
   background-color: #f2f5f7;
 }
@@ -60,9 +88,20 @@ button:focus{
   outline: 0;
 }
 
-@media screen and (min-width: 600px){
+#beerImage{
+  padding: 20px;
+}
+
+@media screen and (min-width: 650px){
+  #logo{
+    width: 150px;
+  }
+
   .container{
     flex-flow: row;
+    max-width: 900px;
+    padding-right: 10px;
+    margin: 0 auto;
   }
 
   .left{
